@@ -17,7 +17,7 @@ body {
     color: #fff;
 }
 
-
+::placeholder  { color:yellowgreen; }
 
 .container-form {
     width: 90%;
