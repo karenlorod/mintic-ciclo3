@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "poppins", sans-serif;
 }
 
 body {
@@ -62,37 +64,119 @@ section p span {
     }
 }
 
-section div div.imagen1{
+section div div.imagen1 {
     background-color: #b48482b2;
 }
 
-section div div.imagen2{
+section div div.imagen2 {
     background-color: #a36262;
 }
 
-section div div.imagen3{
+section div div.imagen3 {
     background-color: #a36262;
 }
 
-section div div.imagen4{
+section div div.imagen4 {
     background-color: #b48482b2;
 }
 
-section div div.imagen5{
+section div div.imagen5 {
     background-color: #b48482b2;
 }
 
-section div div.imagen6{
+section div div.imagen6 {
     background-color: #a36262;
 }
 
-section div div.imagen7{
+section div div.imagen7 {
     background-color: #a36262;
 }
 
-section div div.imagen8{
+section div div.imagen8 {
     background-color: #b48482b2;
 }
+
+/*CALIFICACION*/
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+    font-size: 32px;
+    font-size: 3rem;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: #f17e7e;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: #f17e7e;
+  }
+
+  form p.clasificacion{
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  form h3.calificar{
+    text-align: center;
+    padding-top: 3%;
+  }
+
+/*FIN*/
+
+section div div div button.boton{
+    background-color: #f17e7e;
+}
+
+.comentarios{
+    margin: 20px 0;
+}
+
+.form_comentarios textarea{
+    width: 100%;
+    height: 84px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    line-height: 30px;
+    border: 1px solid #b48482b2;
+    margin-bottom: 20px;
+}
+
+.form_comentarios .btn{
+    background-color: #f17e7e;
+}
+
+.form_comentarios .btn:hover{
+    box-shadow: 0px 0px 9px rgba(0,0,0,.35);
+}
+
 
 footer {
     padding: 7em 0;

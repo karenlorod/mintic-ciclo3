@@ -38,19 +38,19 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/Slide1.jpg" class="d-block w-100" alt="slide1">
+                <img src="./img/Slide1.png" class="d-block w-100" alt="slide1">
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/Slide2.jpg" class="d-block w-100" alt="slider2">
+                <img src="./img/Slide2.png" class="d-block w-100" alt="slider2">
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/Slide3.jpg" class="d-block w-100" alt="slider3">
+                <img src="./img/Slide3.png" class="d-block w-100" alt="slider3">
             </div>
 
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/Slide4.jpg" class="d-block w-100" alt="slider4">
+                <img src="./img/Slide4.png" class="d-block w-100" alt="slider4">
             </div>
 
         </div>
@@ -150,21 +150,58 @@
     </section>
 
     <!--CALIFICACIÓN-->
+
+    <form>
+        <h3 class="calificar">Califica esta habitación</h3>
+        <p class="clasificacion">
+            <input id="radio1" type="radio" name="estrellas" value="5">
+            <!--
+          --><label for="radio1">&#9733</label>
+            <!--
+          --><input id="radio2" type="radio" name="estrellas" value="4">
+            <!--
+          --><label for="radio2">&#9733</label>
+            <!--
+          --><input id="radio3" type="radio" name="estrellas" value="3">
+            <!--
+          --><label for="radio3">&#9733</label>
+            <!--
+          --><input id="radio4" type="radio" name="estrellas" value="2">
+            <!--
+          --><label for="radio4">&#9733</label>
+            <!--
+          --><input id="radio5" type="radio" name="estrellas" value="1">
+            <!--
+          --><label for="radio5">&#9733</label>
+        </p>
+    </form>
+
+    <!--RESERVAR COMENTAR-->
+
     <section class="container-fluid">
-        <div class="container">
-            <div class="star-widget">
-                <imput type="radio" name="rate" id="rate-5"></imput>
-                <label for="rate-5" class="fas fa-star"></label>
-                <imput type="radio" name="rate" id="rate-4"></imput>
-                <label for="rate-4" class="fas fa-star"></label>
-                <imput type="radio" name="rate" id="rate-3"></imput>
-                <label for="rate-3" class="fas fa-star"></label>
-                <imput type="radio" name="rate" id="rate-2"></imput>
-                <label for="rate-2" class="fas fa-star"></label>
-                <imput type="radio" name="rate" id="rate-1"></imput>
-                <label for="rate-1" class="fas fa-star"></label>
+        <div class="row w-75 mx-auto serv-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex icono-wrap">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 reserva justify-content-center">¿Deseas reservar? Presiona aqui</h3>
+                    <button type="submit" value="Reservar" class="form-control submit px-3 rounded-right boton">Reservar</button>
+                </div>
             </div>
-        </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex icono-wrap">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 comentario justify-content-center">¿Que piensas? Dejanos un comentario</h3>
+                    <div class="container">
+                        <div class="row comentarios justify-content-center">
+                            <div class="col-6">
+                                <form action="" class="form_comentarios d-flex justify-content-end flex-wrap">
+                                    <textarea name="" id="" placeholder="comentario"></textarea>
+                                    <button class="btn" type="button">comentar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </section>
 
     <!--FOOTER-->
