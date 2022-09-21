@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "helvetica,san-serif";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a.navbar-brand {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 5vh;
+}
+
+nav {
+    background-color: white;
+}
+
+section h1 span {
+    color: #f17e7e;
+}
+
+section p span {
+    color: #f17e7e;
+}
+
+#menu div>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media(max-width: 768px) {
+    #intro {
+        width: 90% !important;
+    }
+
+    .serv-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+section div div.imagen1{
+    background-color: #b48482b2;
+}
+
+section div div.imagen2{
+    background-color: #a36262;
+}
+
+section div div.imagen3{
+    background-color: #a36262;
+}
+
+section div div.imagen4{
+    background-color: #b48482b2;
+}
+
+section div div.imagen5{
+    background-color: #b48482b2;
+}
+
+section div div.imagen6{
+    background-color: #a36262;
+}
+
+section div div.imagen7{
+    background-color: #a36262;
+}
+
+section div div.imagen8{
+    background-color: #b48482b2;
+}
+
+footer {
+    padding: 7em 0;
+}
+
+.footer-03 {
+    background: #f8f1f1;
+    font-size: 14px;
+}
+
+.footer-03 a {
+    color: #884141;
+    text-decoration: none;
+}
+
+.footer-03 .footer-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer-03 .copyright {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-03 .subscribe-form .form-group {
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.footer-03 .subscribe-form .form-group input {
+    background: rgba(0, 0, 0, 0.05) !important;
+    border: none !important;
+    outline: none !important;
+    color: rgba(0, 0, 0, 0.3) !important;
+    font-size: 16px;
+}
+
+.footer-03 .subscribe-form .form-group .submit {
+    color: #fff !important;
+    display: block;
+    width: 130px;
+    height: 52px;
+    font-size: 16px;
+    background: #f17e7e !important;
+    border: none;
+    border-radius: 0;
+}
+
+.footer-03 .subscribe-form .form-group .submit:hover,
+.footer-03 .subscribe-form .form-group .submit:focus {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.footer-03 .subscribe-form .icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.redes a {
+    display: flex;
+    height: 5vh;
+    width: 10vw;
+    text-indent: -3000px;
+}
+
+.redes li:nth-child(1)>a {
+    background-image: url('../img/facebook.png');
+    background-repeat: no-repeat;
+}
+
+.redes li:nth-child(2)>a {
+    background-image: url('../img/instagram.png');
+    background-repeat: no-repeat;
+
+}
+
+.redes li:nth-child(3)>a {
+    background-image: url('../img/twitter.png');
+    background-repeat: no-repeat;
+
+}
+
+.redes li:nth-child(4)>a {
+    background-image: url('../img/whatsapp.png');
+    background-repeat: no-repeat;
+
+}
